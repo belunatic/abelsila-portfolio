@@ -602,6 +602,7 @@ code {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 	.row > * {
@@ -1817,6 +1818,7 @@ code {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 	.row > * {
@@ -2178,8 +2180,9 @@ header.major .about-me img {
 	border-radius: 10px;
 }
 
-.my-work .box.special {
-	/* background-color: transparent; */
+.my-work h3 {
+	border-top: solid 2px #e5e5e5;
+	padding-top: 10px;
 }
 
 /* Form */
@@ -3888,6 +3891,10 @@ body.landing #main {
 	.box .image.featured:last-child {
 		margin-bottom: -2em;
 		margin-top: 2em;
+	}
+
+	.my-work .image.featured {
+		padding: 1em;
 	}
 
 	/* Banner */
