@@ -19,3 +19,10 @@ fullStackButton.addEventListener("click", (e) => {
 	siteButton.classList.remove("primary");
 	fullStackButton.classList.add("primary");
 });
+
+//scroll feature
+function scrollToWorkSection() {
+	// e.preventDefault();
+	const anchor = document.querySelector("#my-work-section");
+	anchor.scrollIntoView({ behavior: "smooth" }); // Smooth scrolling effect
+}
