@@ -360,6 +360,9 @@ code {
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
+	visibility: visible;
+	height: auto;
+	transition: height 1s ease-in, visibility 1s ease-in;
 }
 
 .row > * {
@@ -4058,4 +4061,11 @@ body.landing #main {
 	#cta {
 		padding: 2.5em 1em 3em 1em;
 	}
+}
+
+/* Js class to show and hide my work section */
+
+.row .hide {
+	visibility: hidden;
+	height: 0px;
 }
