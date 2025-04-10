@@ -2178,6 +2178,10 @@ header.major .about-me img {
 	border-radius: 10px;
 }
 
+.my-work .box.special {
+	/* background-color: transparent; */
+}
+
 /* Form */
 
 form {
