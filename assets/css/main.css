@@ -3364,6 +3364,10 @@ body.landing #page-wrapper {
 	margin-bottom: 1.75em;
 }
 
+#banner strong {
+	color: #fff;
+}
+
 #banner input[type="submit"],
 #banner input[type="reset"],
 #banner input[type="button"],
