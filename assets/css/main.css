@@ -2219,6 +2219,12 @@ header.major .about-me img {
 	display: inline-block;
 }
 
+.connect > h2 {
+	border-bottom: 2px solid #e5e5e5;
+	padding: 0px 0px 10px;
+	margin: 0px 0px 20px;
+}
+
 /* Form */
 
 form {
@@ -3888,7 +3894,7 @@ body.landing #main {
 	}
 
 	.skill-me > div > div > h3 {
-	border:none;
+		border: none;
 	}
 
 	.skill-me > div > div {
@@ -3896,8 +3902,6 @@ body.landing #main {
 		flex: 1;
 		width: 100%;
 	}
-	
-}
 
 	/* Box */
 
@@ -3910,7 +3914,7 @@ body.landing #main {
 	.box.features .features-row {
 		border-top: 0;
 		padding: 0;
-	}  
+	}
 
 	.box.features .features-row section {
 		border: 0;
