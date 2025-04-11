@@ -26,3 +26,8 @@ function scrollToWorkSection() {
 	const anchor = document.querySelector("#my-work-section");
 	anchor.scrollIntoView({ behavior: "smooth" }); // Smooth scrolling effect
 }
+function scrollToConnect() {
+	// e.preventDefault();
+	const anchor = document.querySelector("#connect");
+	anchor.scrollIntoView({ behavior: "smooth" }); // Smooth scrolling effect
+}

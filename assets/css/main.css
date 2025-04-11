@@ -2219,7 +2219,7 @@ header.major .about-me img {
 	display: inline-block;
 }
 
-.connect > h2 {
+.connect-me > h2 {
 	border-bottom: 2px solid #e5e5e5;
 	padding: 0px 0px 10px;
 	margin: 0px 0px 20px;
@@ -3703,7 +3703,9 @@ body.landing #main {
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
-		display: block;
+		/* display: block; */
+		/*uncomment above and delete the bottom one to show the hamburger menu*/
+		display: none;
 		height: 44px;
 		left: 0;
 		position: fixed;
