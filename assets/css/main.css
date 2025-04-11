@@ -2190,6 +2190,35 @@ header.major .about-me img {
 	padding-top: 10px;
 }
 
+.skill-me > div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 2px solid #e5e5e5;
+	text-align: left;
+}
+
+.skill-me > div > div {
+	width: 45%;
+	margin: 1em 0em;
+	padding: 1em;
+}
+
+.skill-me > div > div > h3 {
+	border-bottom: 2px solid #e4886a;
+	padding: 0px 0px 10px;
+}
+
+.skill-me > div > div span {
+	padding: 5px;
+	background-color: #f6f3f0;
+	color: #373535;
+	border-radius: 10px;
+	margin: 5px;
+	display: inline-block;
+}
+
 /* Form */
 
 form {
@@ -3854,6 +3883,21 @@ body.landing #main {
 	.about-photo {
 		flex: 1;
 	}
+	.skill-me > div {
+		flex-direction: column;
+	}
+
+	.skill-me > div > div > h3 {
+	border:none;
+	}
+
+	.skill-me > div > div {
+		border-bottom: 2px solid #e4886a;
+		flex: 1;
+		width: 100%;
+	}
+	
+}
 
 	/* Box */
 
@@ -3866,7 +3910,7 @@ body.landing #main {
 	.box.features .features-row {
 		border-top: 0;
 		padding: 0;
-	}
+	}  
 
 	.box.features .features-row section {
 		border: 0;
